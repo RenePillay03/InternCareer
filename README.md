@@ -1,43 +1,79 @@
 YouTube Data Analysis
+
 Overview
+
 This Python script analyzes a dataset containing information about YouTube streamers, focusing on various aspects such as trend analysis, audience study, performance metrics, content categories, brands and collaborations, and benchmarking. The script utilizes popular data analysis libraries including Pandas, NumPy, Matplotlib, and Seaborn.
 
+
 Table of Contents:
+
 Data Exploration
+
 Trend Analysis
+
 Audience Study
+
 Performance Metrics
+
 Content Categories
+
 Brands and Collaborations
+
 Benchmarking
+
 
 Details
 1 - Data Exploration
+
 Loads the dataset and provides an overview of its structure.
 Explores the first 5 rows of the dataset.
 Checks for missing data and explores basic statistics.
 Visualizes outliers using scatter plots and box plots.
+
+
 2 - Trend Analysis
+
 Identifies trends among top YouTube streamers.
 Creates visualizations for categories and performance metrics.
 Analyzes correlations between subscribers, likes, and comments.
+
+
 3 - Audience Study
+
 Studies audience distribution by country.
 Visualizes the distribution of audiences by country.
 Explores regional preferences for content categories using heatmaps.
+
+
 4 - Performance Metrics
+
 Calculates and visualizes average performance metrics.
 Displays average subscribers, visits, likes, and comments.
+
+
 5 - Content Categories
+
 Explores the distribution of content categories.
 Identifies categories with exceptional performance metrics.
+
+
 6 - Brands and Collaborations
+
 Cleans the data and visualizes the relationship between performance metrics and brand collaborations.
 Calculates correlation coefficients.
+
+
 7 - Benchmarking
+
 Performs benchmarking by comparing content creators' performance against average values.
+
+
 8 - Content Recommendations
-In the dynamic landscape of digital content consumption, the role of effective recommendations cannot be overstated. I will outline a strategic approach to elevate the content recommendation system on YouTube, fostering a more personalized and engaging user experience. By incorporating streamer categories and key performance metrics, we can aim to refine the algorithm, providing users with content that resonates with their unique preferences. I will explore the technical aspects, anticipated benefits, and potential challenges of implementing this enhancement, aligning with YouTube's commitment to delivering a tailored and enriching platform for its diverse user base.
+
+In the dynamic landscape of digital content consumption, the role of effective recommendations cannot be overstated. I will outline a strategic approach to elevate the content recommendation system on YouTube, fostering a more personalized and engaging user experience. By incorporating streamer categories and key performance metrics, 
+we can aim to refine the algorithm, providing users with content that resonates with their unique preferences. 
+I will explore the technical aspects, anticipated benefits, and potential challenges of implementing this enhancement, 
+aligning with YouTube's commitment to delivering a tailored and enriching platform for its diverse user base.
 
 1. Data Collection and Processing:
 - Continue collecting and updating data on YouTube streamers, including categories, performance metrics (likes, comments, visits, subscribers), and other relevant information.
@@ -78,22 +114,34 @@ In the dynamic landscape of digital content consumption, the role of effective r
 
 By implementing these components, we can aim to create a robust recommendation system that enhances the overall user experience on YouTube by providing personalized and relevant content suggestions based on streamer categories and performance metrics.
 
-Summary of Analysis Results
-Category Insights
+- Summary of Analysis Results
+
+- Category Insights
+
 The dominant content category in the dataset is "Música y baile," reflecting a substantial presence and engagement within this genre.
 
-Audience Distribution by Country
+- Audience Distribution by Country
+
 Ecuador, a South American country, stands out for having the most extensive audience distribution among the analyzed YouTube streamers.
 
-Average Performance Metrics
+
+- Average Performance Metrics
+
 In the dataset, the average metrics across all streamers are as follows:
 
 Average Subscribers: 21,894,400
+
 Average Visits: 1,209,446.32
+
 Average Likes: 53,632.59
+
 Average Comments: 1,288.77
-Correlation Between Visits and Brand Collaborations
+
+
+- Correlation Between Visits and Brand Collaborations
+
 A positive correlation of 0.25 is observed between the number of channel visits and the level of engagement in brand collaborations. This suggests a tendency for increased brand collaborations as the number of visitors to a channel rises.
 
-Top-Performing Content Creator
+- Top-Performing Content Creator
+
 Mr Beast secures the top position among content creators, boasting the highest number of subscribers and visits. This accomplishment underscores Mr Beast's remarkable influence and audience reach within the YouTube platform.
