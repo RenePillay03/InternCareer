@@ -6,67 +6,60 @@ This Python script analyzes a dataset containing information about YouTube strea
 
 
 Table of Contents:
-
-Data Exploration
-
-Trend Analysis
-
-Audience Study
-
-Performance Metrics
-
-Content Categories
-
-Brands and Collaborations
-
-Benchmarking
+1. Data Exploration
+2. Trend Analysis
+3. Audience Study
+4. Performance Metrics
+5. Content Categories
+6. Brands and Collaborations
+7. Benchmarking
+8. Content Recommendations
+9. Summary of Analysis Results
 
 
-Details
 1 - Data Exploration
 
-Loads the dataset and provides an overview of its structure.
-Explores the first 5 rows of the dataset.
-Checks for missing data and explores basic statistics.
-Visualizes outliers using scatter plots and box plots.
+- Loads the dataset and provides an overview of its structure.
+- Explores the first 5 rows of the dataset.
+- Checks for missing data and explores basic statistics.
+- Visualizes outliers using scatter plots and box plots.
 
 
 2 - Trend Analysis
 
-Identifies trends among top YouTube streamers.
-Creates visualizations for categories and performance metrics.
-Analyzes correlations between subscribers, likes, and comments.
+- Identifies trends among top YouTube streamers.
+- Creates visualizations for categories and performance metrics.
+- Analyzes correlations between subscribers, likes, and comments.
 
 
 3 - Audience Study
 
-Studies audience distribution by country.
-Visualizes the distribution of audiences by country.
-Explores regional preferences for content categories using heatmaps.
+- Studies audience distribution by country.
+- Visualizes the distribution of audiences by country.
+- Explores regional preferences for content categories using heatmaps.
 
 
 4 - Performance Metrics
 
-Calculates and visualizes average performance metrics.
-Displays average subscribers, visits, likes, and comments.
+- Calculates and visualizes average performance metrics.
+- Displays average subscribers, visits, likes, and comments.
 
 
 5 - Content Categories
 
-Explores the distribution of content categories.
-Identifies categories with exceptional performance metrics.
+- Explores the distribution of content categories.
+- Identifies categories with exceptional performance metrics.
 
 
 6 - Brands and Collaborations
 
-Cleans the data and visualizes the relationship between performance metrics and brand collaborations.
-Calculates correlation coefficients.
+- Cleans the data and visualizes the relationship between performance metrics and brand collaborations.
+- Calculates correlation coefficients.
 
 
 7 - Benchmarking
 
-Performs benchmarking by comparing content creators' performance against average values.
-
+- Performs benchmarking by comparing content creators' performance against average values.
 
 8 - Content Recommendations
 
@@ -114,7 +107,8 @@ aligning with YouTube's commitment to delivering a tailored and enriching platfo
 
 By implementing these components, we can aim to create a robust recommendation system that enhances the overall user experience on YouTube by providing personalized and relevant content suggestions based on streamer categories and performance metrics.
 
-- Summary of Analysis Results
+
+10. Summary of Analysis Results
 
 - Category Insights
 
